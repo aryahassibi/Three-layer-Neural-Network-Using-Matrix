@@ -1,5 +1,5 @@
 # Three-layer Neural Network ( Using Matrix )
-This Neural network is written in Python (3.7.6)
+This Neural network is written in Python (3.7.6) <br>
 All of the matrix calculations of this neural network are done by matrix.py.
 
 # **Neural Network**
