@@ -34,9 +34,9 @@ Three-layer Neural network is a basic neural network that you can solve simple p
           targets = [[0], [1], [0], [1]]
 
           # Training the neural network 10000 times
-          for j in range(10000):
-              i = randint(0, 3)
-              nn.train(inputs[i], targets[i])
+          for _ in range(10000):
+              index = randint(0, 3)
+              nn.train(inputs[index], targets[index])
 
 4. Getting neural network prediction
     <br>For Getting predictions you should use **predict()** method:
@@ -51,8 +51,8 @@ Three-layer Neural network is a basic neural network that you can solve simple p
         inputs = [[0, 0], [1, 0], [1, 1], [0, 1]]
 
         for i in range(4):
-          o = nn.predict(inputs[i])
-          print("XOR", inputs[i], " ≈ ", o[0])
+          output = nn.predict(inputs[i])
+          print("XOR", inputs[i], " ≈ ", output[0])
 
     *output:*
     
