@@ -51,8 +51,8 @@ Three-layer Neural network is a basic neural network that you can solve simple p
         inputs = [[0, 0], [1, 0], [1, 1], [0, 1]]
 
         for i in range(4):
-          output = nn.predict(inputs[i])
-          print("XOR", inputs[i], " ≈ ", output[0])
+          output = nn.predict(inputs[i])[0]
+          print("XOR", inputs[i], " ≈ ", output)
 
     *output:*
     
