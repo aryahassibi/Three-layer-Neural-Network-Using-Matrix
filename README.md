@@ -4,7 +4,7 @@ All of the matrix calculations of this neural network are done by [matrix.py](#m
 
 ## **Neural Network**
 
-Three-layer Neural network is a basic neural network that you can solve simple problems with(e.g., XOR, some non-linear problems, etc.).
+Three-layer Neural network is a basic neural network that you can solve simple problems with(e.g., [XOR](https://github.com/aryahassibi/XOR-Problem), some non-linear problems, etc.).
 > *note:* The Activation function of this neural network is the ***sigmoid*** function 
 ### *HOW TO WORK WITH neuralNetwork.py:*
 1. Import Class
@@ -28,7 +28,7 @@ Three-layer Neural network is a basic neural network that you can solve simple p
     > *note:* length of **input_array** should be equal to **number_of_input_nodes** <br>
     >    and lenght of **target_array** should be equal to **number_of_output_nodes**
 
-    for example this time we are going to train the neural netwrok to solve XOR problem:
+    for example this time we are going to train the neural netwrok to solve [XOR](https://github.com/aryahassibi/XOR-Problem) problem:
     
         inputs = [[0, 0], [1, 0], [1, 1], [0, 1]]
         targets = [[0], [1], [0], [1]]
@@ -45,7 +45,7 @@ Three-layer Neural network is a basic neural network that you can solve simple p
 
     > *note:* length of **input_array** should be equal to **number_of_input_nodes**
 
-    Again we continue with XOR problem.<br>
+    Again we continue with [XOR](https://github.com/aryahassibi/XOR-Problem) problem.<br>
     For getting the result after trianing the neural network you can do this:
     
         inputs = [[0, 0], [1, 0], [1, 1], [0, 1]]
