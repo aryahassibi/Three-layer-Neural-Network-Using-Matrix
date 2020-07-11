@@ -4,9 +4,9 @@ All of the matrix calculations of this neural network are done by [matrix.py](#m
 
 ## **Neural Network**
 
-Three-layer Neural network is a basic neural netwrok that you can solve simple problems with(e.g., XOR, some non-linear problems, etc.).
-> *note:* The Activation function of this neural netwrok is the ***sigmoid*** function 
-### *HOW TO WROK WITH neuralNetwork.py:*
+Three-layer Neural network is a basic neural network that you can solve simple problems with(e.g., XOR, some non-linear problems, etc.).
+> *note:* The Activation function of this neural network is the ***sigmoid*** function 
+### *HOW TO WORK WITH neuralNetwork.py:*
 1. Import Class
       
         from neuralNetwork import *
@@ -16,10 +16,10 @@ Three-layer Neural network is a basic neural netwrok that you can solve simple p
 
         nn = Neuralnetwork(number_of_input_nodes, number_of_hidden_nodes, number_of_output_nodes)
 
-    > *note:* number_of_input_nodes, number_of_hidden_nodes and number_of_output_nodes could be what ever you want.
+    > *note:* number_of_input_nodes, number_of_hidden_nodes and number_of_output_nodes could be whatever you want.
     
     
-3. Generate the inputs and the targets that you wnat to train your netwrok with
+3. Generate the inputs and the targets that you want to train your network with
 
     <br>For training the neural netwrok you should use **train()** method: 
           
@@ -70,7 +70,7 @@ Matrix is a class that is capable of doing some simple 2d-matrix calculations.
       
             from matrix import *
             
-2. Creat an Object
+2. Create an Object
 
             matrix = Matrix(number_of_rows, number_of_columns)
       > *note:* When you create a new object, the new matrix is filled with **0**<br>
@@ -78,7 +78,7 @@ Matrix is a class that is capable of doing some simple 2d-matrix calculations.
  
 <br>
       
-+ Each matrix has 4 differnet properties:
++ Each matrix has 4 different properties:
     1. number of rows
 
                   matrix.rows
@@ -89,12 +89,12 @@ Matrix is a class that is capable of doing some simple 2d-matrix calculations.
 
                   matrix.shape
     4. the data stored in the matrix<br>
-          All of the data is stored in a python list<br>
-          ans you can acsees the data by using:
+          All of the data is  stored in a python list<br>
+          and you can access the data by using:
 
                   matrix.data
                   
-> *note:* See all of the meethods and read about their functionality in matrix.py 
+> *note:* See all of the methods and read about their functionality in matrix.py 
             
            
 
