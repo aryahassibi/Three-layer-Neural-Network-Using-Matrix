@@ -30,13 +30,13 @@ Three-layer Neural network is a basic neural network that you can solve simple p
 
     for example this time we are going to train the neural netwrok to solve XOR problem:
     
-          inputs = [[0, 0], [1, 0], [1, 1], [0, 1]]
-          targets = [[0], [1], [0], [1]]
+        inputs = [[0, 0], [1, 0], [1, 1], [0, 1]]
+        targets = [[0], [1], [0], [1]]
 
-          # Training the neural network 10000 times
-          for _ in range(10000):
-              index = randint(0, 3)
-              nn.train(inputs[index], targets[index])
+        # Training the neural network 10000 times
+        for _ in range(10000):
+            index = randint(0, 3)
+            nn.train(inputs[index], targets[index])
 
 4. Getting neural network prediction
     <br>For Getting predictions you should use **predict()** method:
